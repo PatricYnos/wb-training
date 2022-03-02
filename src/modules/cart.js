@@ -1,4 +1,4 @@
-const cart = function () {
+export const cart = function () {
   const cartBtn = document.querySelector('.button-cart'),
     cart = document.querySelector('#modal-cart'),
     closeBtn = cart.querySelector('.modal-close');
@@ -11,5 +11,3 @@ const cart = function () {
     cart.style.display = '';
   });
 };
-
-cart();

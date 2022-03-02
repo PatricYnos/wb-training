@@ -1,4 +1,4 @@
-const search = function () {
+export const search = function () {
   const input = document.querySelector('.search-block > input'),
     searchBtn = document.querySelector('.search-block > button');
 
@@ -48,5 +48,3 @@ const search = function () {
     getData(input.value);
   });
 };
-
-search();
